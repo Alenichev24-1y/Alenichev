@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Это веб-страница</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header> Электронная форма </header>
+        <main>
+             <h1> эта форма очень важная к заполнению и необходимо отнестись к этому серьезно </h1>
+             <h2>
+                <div style="margin: 1%; border-bottom: 1px solid black;">
+                    <p style="color: #111111;"> 1 Введите имя </p>
+                    <input id="username" type="text" name="username" placeholder="введите сюда">
+                </div>
+
+                <div style="margin: 1%; border-bottom: 1px solid black;">
+                    <p style="color: #222222;"> 2 Сколько лет </p>
+                    <select id="age" name="age">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                </div>
+                
+
+                <div style="margin: 1%; padding-bottom: 15px; border-bottom: 1px solid black;">
+                    <p style="color: #111; margin-bottom: 5px;">Email:</p>
+                    <input type="email" placeholder="test@mail.ru" style="padding: 6px; width: 200px;">
+                </div>
+
+                <div style="margin: 1%; padding-bottom: 15px; border-bottom: 1px solid black;">
+                    <p style="color: #111; margin-bottom: 5px;">Место жительства:</p>
+                    <select style="padding: 6px; width: 150px;">
+                        <option>Москва</option>
+                        <option>СПб</option>
+                        <option>Казань</option>
+                    </select>
+                </div>
+
+                <div style="margin: 1%; padding-bottom: 15px; border-bottom: 1px solid black;">
+                    <p style="color: #111; margin-bottom: 5px;">Пол:</p>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male" style="margin-right: 10px;">Мужской</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Женский</label>
+                </div>
+
+                <div style="margin: 1%; padding-bottom: 15px; border-bottom: 1px solid black;">
+                    <p style="color: #111; margin-bottom: 5px;">Согласия:</p>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Согласен</label>
+                </div>
+
+                <div style="margin: 1%; padding-bottom: 15px; border-bottom: 1px solid black;">
+                    <p style="color: #111; margin-bottom: 5px;">Комментарий:</p>
+                    <textarea style="width: 250px; padding: 6px; height: 60px;"></textarea>
+                </div>
+
+                <div style="margin: 1%; padding-top: 10px;">
+                    <button style="
+                        background: #007bff;
+                        color: white;
+                        padding: 10px 25px;
+                        border: none;
+                        border-radius: 3px;
+                    ">Отправить</button>
+                </div>
+             </h2>
+
+
+        </main>
+        <footer> http </footer>
+    </body>
+</html>
